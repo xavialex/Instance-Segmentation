@@ -27,5 +27,20 @@ dependencies:
   - intel-openmp=2018.0.0=8
   - mkl=2018.0.2=1
   - numpy=1.14.2=py36h5c71026_1
-prefix: C:\Users\festevem\AppData\Local\Continuum\Anaconda3\envs\instance_segmentation
+  - pip:
+    - absl-py==0.2.2
+    - astor==0.6.2
+    - bleach==1.5.0
+    - gast==0.2.0
+    - grpcio==1.12.0
+    - html5lib==0.9999999
+    - markdown==2.6.11
+    - pillow==5.1.0
+    - protobuf==3.5.2.post1
+    - six==1.11.0
+    - tensorboard==1.8.0
+    - tensorflow==1.8.0
+    - termcolor==1.1.0
+    - werkzeug==0.14.1
+prefix: C:\Users\xavia\Anaconda3\envs\instance_segmentation
 
