@@ -42,5 +42,3 @@ dependencies:
     - tensorflow==1.8.0
     - termcolor==1.1.0
     - werkzeug==0.14.1
-prefix: C:\Users\xavia\Anaconda3\envs\instance_segmentation
-
