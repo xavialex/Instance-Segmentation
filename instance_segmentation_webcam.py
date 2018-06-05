@@ -164,9 +164,11 @@ def main():
                         break
                      
     except KeyboardInterrupt:   
-        print("Ending resources")
-        video_capture.release()
-        cv2.destroyAllWindows()
+        pass
+    
+    print("Ending resources")
+    video_capture.release()
+    cv2.destroyAllWindows()
 
 if __name__ == '__main__':
     main()
