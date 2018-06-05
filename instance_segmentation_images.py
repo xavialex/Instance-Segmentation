@@ -115,6 +115,8 @@ def main():
                 processed_image = cv2.cvtColor(processed_image, cv2.COLOR_RGB2BGR)
                 Path('segmented_images').mkdir(exist_ok=True)
                 cv2.imwrite('segmented_images/{}'.format(str(image.name)), processed_image)
+                
+    print("Images segmetned correctly: Check the 'segmented_images/' folder to see the results")
 
 if __name__ == '__main__':
     main()

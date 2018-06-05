@@ -104,7 +104,7 @@ def discrimine_class(class_id, output_dict):
         output_dict (dict): Output if the model once an image is processed.
         
     Returns:
-        output_dict (dict): Modified dictionary wjich just delivers the
+        output_dict (dict): Modified dictionary which just delivers the
             specified class detections.
             
     """
@@ -167,8 +167,9 @@ def main():
         pass
     
     print("Ending resources")
-    video_capture.release()
     cv2.destroyAllWindows()
+    video_capture.release()
+    
 
 if __name__ == '__main__':
     main()
