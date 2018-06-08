@@ -1,6 +1,6 @@
 # Instance Segmentation
 
-Beyond image classification and object detection, the Computer Vision problems where a single thing must be recognized or multiple class instances should be recognized and detected eith bounding boxes, a new challenge appears: Semantic and Instance Segmentation.  
+Beyond image classification and object detection, the Computer Vision problems where a single thing must be recognized or multiple class instances should be recognized and detected with each bounding boxes, a new challenge appears: Semantic and Instance Segmentation.  
 The main objective of this approach is to recognize pixel-wise to which class belongs every instance of a given image, supposing that the model we're applying's been trained on this classes. This project uses the TensorFlow object detection Mask RCNN model to achieve that. Several scripts are provided depending on what functionality is required.
 
 ## Dependencies
