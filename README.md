@@ -65,3 +65,11 @@ The script will process every *.jpg* image in the *images/* folder and save them
 
 Here, the instance segmentation'll be applied to the frame captured by the first available webcam. Press the 'q' button in the generated floating windows or *Ctrl+C* to stop the execution. It's also possible to discriminate among the trained classes: when calling the ```run_inference_for_single_image``` function, pass as an optional argument a list containing the id's of the COCO classes you want to detect. The model will just display the detected instances of those classes.  
 Note that this is a high demanding task in computational terms, even when using the most lightweight model available. Consider using GPU acceleration for this purposes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* [TF Object Detection](https://github.com/tensorflow/models/tree/master/research/object_detection)
